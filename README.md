@@ -19,6 +19,19 @@ date: YYYY-MM-DD
 Write the post below the front matter. The example post in `_posts` shows the
 expected structure.
 
+## Add images
+
+Save image files in `assets/images`, then reference them from a post with a
+path that starts with `/`:
+
+```markdown
+![Describe the image](/assets/images/my-image.jpg)
+```
+
+The text in brackets is alt text: it describes the image for readers who can't
+see it. To add a caption, wrap the image in an HTML `figure` with a
+`figcaption`. The example post shows both.
+
 ## Preview locally
 
 Install Ruby and Jekyll, then run `jekyll serve` from the repository root and
