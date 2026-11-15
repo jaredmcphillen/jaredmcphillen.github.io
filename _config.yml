@@ -1,0 +1,6 @@
+title: Jared McPhillen
+description: Notes, projects, and ideas.
+url: "https://jaredmcphillen.github.io"
+baseurl: ""
+permalink: /:categories/:year/:month/:day/:title/
+markdown: kramdown
